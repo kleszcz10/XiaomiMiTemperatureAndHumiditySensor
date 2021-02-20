@@ -1,0 +1,28 @@
+{
+  "profiles": {
+    "XiaomiMiTemperatureAndHumiditySensor.Console.FindDevicesAndGetDatas": {
+      "commandName": "Project",
+      "commandLineArgs": "-m FindDevicesAndGetDatas"
+    },
+    "XiaomiMiTemperatureAndHumiditySensor.Console.FindDevices": {
+      "commandName": "Project",
+      "commandLineArgs": "-m FindDevices"
+    },
+    "XiaomiMiTemperatureAndHumiditySensor.Console.FindDevicesAndWatchDatas": {
+      "commandName": "Project",
+      "commandLineArgs": "-m FindDevicesAndWatchDatas"
+    },
+    "XiaomiMiTemperatureAndHumiditySensor.Console.WatchDevicesAndDatas": {
+      "commandName": "Project",
+      "commandLineArgs": "-m WatchDevicesAndDatas"
+    },
+    "XiaomiMiTemperatureAndHumiditySensor.Console.GetDatasForDevice": {
+      "commandName": "Project",
+      "commandLineArgs": "-m GetDatasForDevice -d \"<Device_id>\""
+    },
+    "XiaomiMiTemperatureAndHumiditySensor.Console.WatchDatasForDevice": {
+      "commandName": "Project",
+      "commandLineArgs": "-m WatchDatasForDevice -d \"<Device_id>\""
+    }
+  }
+}
